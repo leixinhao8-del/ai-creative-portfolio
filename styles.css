@@ -399,6 +399,15 @@ h3 {
   aspect-ratio: 4 / 3;
 }
 
+.interface-preview {
+  width: 72%;
+}
+
+.interface-preview img {
+  aspect-ratio: 16 / 7;
+  object-position: top left;
+}
+
 .system-board {
   min-height: 420px;
   padding: clamp(18px, 2.4vw, 28px);
@@ -513,6 +522,18 @@ h3 {
   gap: clamp(30px, 6vw, 84px);
   align-items: end;
   margin-bottom: clamp(44px, 8vw, 92px);
+}
+
+.interface-shot {
+  width: min(920px, 92%);
+  margin: 0 auto clamp(54px, 8vw, 92px);
+  transform: rotate(-1.2deg);
+}
+
+.interface-shot img {
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .case-heading h2 {
@@ -785,6 +806,10 @@ h3 {
 
   .frame-b {
     width: 72%;
+  }
+
+  .interface-preview {
+    width: 78%;
   }
 
   .system-board {
